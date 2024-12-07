@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What documents do I need to apply for a job?",
+        "answer": "To apply for a job, you typically need a resume/CV, a cover letter, and any other documents specified in the job posting, such as certifications or portfolios."
+    },
+    {
+        "question": "How do I submit my application?",
+        "answer": "You can submit your application through our online portal. Make sure to fill out all required fields and upload your documents before submitting."
+    },
+    {
+        "question": "Can I apply for multiple positions at the same time?",
+        "answer": "Yes, you can apply for multiple positions. However, ensure that your application is tailored to each specific role to improve your chances."
+    },
+    {
+        "question": "What should I include in my cover letter?",
+        "answer": "Your cover letter should include a brief introduction, your reasons for applying, a summary of your relevant experience, and why you think you're a good fit for the position."
+    },
+    {
+        "question": "How long will it take to hear back after I apply?",
+        "answer": "The response time can vary. Generally, you will hear back within 1-2 weeks. We will notify you via email or phone regarding the status of your application."
+    },
+    {
+        "question": "Can I update my application after submitting it?",
+        "answer": "Yes, you can update your application by logging into your account on our portal. Make sure to save any changes before resubmitting."
+    },
+    {
+        "question": "What should I do if I encounter issues with the application process?",
+        "answer": "If you encounter any issues, please contact our support team at support@example.com or call us at 123-456-7890. We're here to help!"
+    },
+    {
+        "question": "Do you offer internships or entry-level positions?",
+        "answer": "Yes, we offer internships and entry-level positions across various departments. Please check our job listings for available opportunities."
+    },
+    {
+        "question": "What is the interview process like?",
+        "answer": "Our interview process typically includes an initial phone screening, followed by one or more in-person or virtual interviews. We may also include assessments or tasks relevant to the role."
+    },
+    {
+        "question": "How can I prepare for my interview?",
+        "answer": "To prepare for your interview, research our company, review the job description, practice common interview questions, and think of examples that highlight your skills and experience."
+    }
+]

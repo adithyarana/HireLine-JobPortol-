@@ -1,4 +1,5 @@
-import { createContext, useContext, useEffect, useState } from "react"
+import { createContext, useContext } from "react"
+import { useState, useEffect } from "react"
 
 const initialState = {
     theme: "system",

@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { useUser } from '@clerk/clerk-react'
 import { BarLoader } from 'react-spinners';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 // this is the page select role fo the user
 

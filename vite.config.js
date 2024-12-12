@@ -26,7 +26,6 @@ export default defineConfig({
       },
     },
     chunkSizeWarningLimit: 2000, // Adjusted chunk size limit
+    sourcemap: true, // Enable source maps
   },
 });
-
-

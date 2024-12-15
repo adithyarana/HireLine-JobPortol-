@@ -7,7 +7,8 @@ import { Button } from './ui/button';
 import { deletejobs, savejob } from '@/api/apijobs';
 import useFetch from '@/hooks/useFetch';
 import { BarLoader } from 'react-spinners';
-import { useEffect , useState } from 'react';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 const JobsCards = ({
     job,

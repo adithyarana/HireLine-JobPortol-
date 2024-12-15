@@ -6,7 +6,8 @@ import { SignedOut } from '@clerk/clerk-react';
 import { UserButton } from '@clerk/clerk-react';
 import { SignedIn } from '@clerk/clerk-react';
 import { BriefcaseBusiness, Heart, PenBox } from 'lucide-react';
-import { useState , useEffect } from 'react';
+import { useState } from 'react';
+import { useEffect } from 'react';
 const Header = () => {
 
   const  [showsignin , setshowsignin] = useState(false);

@@ -10,7 +10,6 @@ import { BriefcaseBusiness, Heart, PenBox } from 'lucide-react';
 const Header = () => {
 
   const  [showsignin , setshowsignin] = useState(false);
-
   const [search , setsearch]= useSearchParams();
   const {user}= useUser();
 

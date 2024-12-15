@@ -10,6 +10,7 @@ import { BarLoader } from 'react-spinners';
 import ApplyjobDrawer from '@/components/Applyjob';
 import ApplicationCard from '@/components/ApplicationCard';
 
+
 const Job = () => {
   const { isLoaded, user } = useUser();
   const { id } = useParams();

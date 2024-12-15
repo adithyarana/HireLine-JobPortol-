@@ -1,4 +1,4 @@
-import React  from 'react';
+import React, { useEffect, useState }  from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { Button } from './ui/button';
 import { SignIn, useUser } from '@clerk/clerk-react';
@@ -6,8 +6,7 @@ import { SignedOut } from '@clerk/clerk-react';
 import { UserButton } from '@clerk/clerk-react';
 import { SignedIn } from '@clerk/clerk-react';
 import { BriefcaseBusiness, Heart, PenBox } from 'lucide-react';
-import { useState } from 'react';
-import { useEffect } from 'react';
+
 const Header = () => {
 
   const  [showsignin , setshowsignin] = useState(false);

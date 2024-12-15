@@ -1,4 +1,4 @@
-import React  from 'react'
+import React, { useEffect, useState }  from 'react'
 import { useUser } from '@clerk/clerk-react'
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './ui/card'
 import { Heart, MapPinIcon, Trash2Icon } from 'lucide-react';
@@ -7,8 +7,6 @@ import { Button } from './ui/button';
 import { deletejobs, savejob } from '@/api/apijobs';
 import useFetch from '@/hooks/useFetch';
 import { BarLoader } from 'react-spinners';
-import { useState } from 'react';
-import { useEffect } from 'react';
 
 const JobsCards = ({
     job,

@@ -83,7 +83,7 @@ SUPABASE_ANON_KEY=<your_supabase_anon_key>
 _Add screenshots of your website here!_
 
 1. **Homepage**
-   ![Homepage](./screenshots/homepage.png)
+   ![Homepage]--![HomePage](https://github.com/user-attachments/assets/5b16ddb5-2f02-44a3-827d-37c2b0c0c6bb)
 
 2. **Job Listings**
    ![Job Listings](./screenshots/job-listings.png)

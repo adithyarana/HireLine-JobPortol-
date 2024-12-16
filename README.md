@@ -83,18 +83,25 @@ SUPABASE_ANON_KEY=<your_supabase_anon_key>
 _Add screenshots of your website here!_
 
 1. **Homepage**
-   ![Homepage]--![HomePage](https://github.com/user-attachments/assets/5b16ddb5-2f02-44a3-827d-37c2b0c0c6bb)
+   ![Homepage]--
 
-2. **Job Listings**
-   ![Job Listings](./screenshots/job-listings.png)
+   ![HomePage](https://github.com/user-attachments/assets/5b16ddb5-2f02-44a3-827d-37c2b0c0c6bb)
 
-3. **Job Application Page**
-   ![Job Application](./screenshots/job-application.png)
+3. **Job Listings**
+   !
+   ![joblisting](https://github.com/user-attachments/assets/089992ca-033d-4bcd-8466-4beebf19bb28)
 
-4. **Recruiter Dashboard**
-   ![Recruiter Dashboard](./screenshots/recruiter-dashboard.png)
+4. **Job Application Page**
+   
+   ![job Appliaction](https://github.com/user-attachments/assets/b56ae987-1241-4a73-b2a9-250f4d91b7d8)
 
----
+5. **Post Jobs Page**
+   
+---![post jobs](https://github.com/user-attachments/assets/107e5e3e-b346-4497-be43-45bf96691258)
+
+6. **Saved jobs Page**
+
+![saved jobs](https://github.com/user-attachments/assets/ea743528-5161-436e-bea2-9339338353b5)
 
 ## Future Enhancements
 

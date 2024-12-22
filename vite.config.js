@@ -1,5 +1,3 @@
-
-
 import path from "path";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
@@ -10,6 +8,10 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  optimizeDeps: {
+    // Pre-bundling dependencies to avoid runtime issues
+    include: ["react", "react-dom", "use-sync-external-store"],
   },
   build: {
     rollupOptions: {
@@ -29,5 +31,8 @@ export default defineConfig({
     },
     chunkSizeWarningLimit: 2000, // Adjusted chunk size limit
     sourcemap: true, // Enable source maps
+    commonjsOptions: {
+      transformMixedEsModules: true, // Handle mixed ES modules
+    },
   },
 });

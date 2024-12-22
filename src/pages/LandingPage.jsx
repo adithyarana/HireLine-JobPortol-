@@ -20,7 +20,7 @@ const LandingPage = () => {
           </h1>
 
           <p className='text-gray-300 sm:mt-4 text-xs sm:text-xl'>
-      Explore thousands of job listings or find the perfect candidate
+      Explore thousands of job listings or find the perfect candidate 
      </p>
     </section>
 

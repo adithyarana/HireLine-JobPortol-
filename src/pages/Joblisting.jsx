@@ -19,7 +19,7 @@ const Joblisting = () => {
 
  const [searchquery , setsearchquery] = useState('');
  const [location , setlocation] = useState('');
- const [company_id , setcompany_id] = useState();
+ const [company_id , setcompany_id] = useState('');
  const {isLoaded} = useUser('');
  
 

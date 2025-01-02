@@ -11,7 +11,7 @@ export default defineConfig({
   },
   optimizeDeps: {
     // Pre-bundling dependencies to avoid runtime issues
-    include: ["react", "react-dom", "use-sync-external-store"],
+    include: ["react", "react-dom"],
   },
   build: {
     rollupOptions: {

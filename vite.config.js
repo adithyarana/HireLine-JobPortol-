@@ -38,16 +38,50 @@
 // });
 
 /* eslint-disable no-undef */
+// import path from "path";
+// import react from "@vitejs/plugin-react";
+// import { defineConfig } from "vite";
+
+// // https://vitejs.dev/config/
+// export default defineConfig({
+//   plugins: [react()],
+//   resolve: {
+//     alias: {
+//       "@": path.resolve(__dirname, "./src"),
+//     },
+//     chunkSizeWarningLimit: 2000,
+//   },
+// });
+
+
 import path from "path";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: (id) => {
+          // Dynamically split code by dependencies and modules
+          if (id.includes("node_modules")) {
+            if (id.includes("react")) {
+              return "vendor-react";
+            }
+            if (id.includes("lodash")) {
+              return "vendor-lodash";
+            }
+            return "vendor"; // Other dependencies
+          }
+        },
+      },
+    },
+    chunkSizeWarningLimit: 2000,
   },
 });

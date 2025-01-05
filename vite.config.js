@@ -69,19 +69,22 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: (id) => {
-          // Dynamically split code by dependencies and modules
           if (id.includes("node_modules")) {
             if (id.includes("react")) {
-              return "vendor-react";
+              return "react"; // Separate React and React DOM
+            }
+            if (id.includes("@reduxjs") || id.includes("redux")) {
+              return "redux"; // Separate Redux-related libraries
             }
             if (id.includes("lodash")) {
-              return "vendor-lodash";
+              return "lodash"; // Separate Lodash
             }
-            return "vendor"; // Other dependencies
+            return id.toString().split("node_modules/")[1].split("/")[0]; // Split by individual library
           }
         },
       },
     },
-    chunkSizeWarningLimit: 2000,
+    chunkSizeWarningLimit: 2000, // Increased limit for warnings
   },
 });
+
